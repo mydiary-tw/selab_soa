@@ -5,7 +5,7 @@ public interface IResponseObject {
 	/**
 	 * 將 Response Object 對應為 Value Object
 	 * 
-	 * @return Value Object
+	 * @param value Value Object
 	 */
-	public Object toValue();
+	public void toValue(Object value);
 }

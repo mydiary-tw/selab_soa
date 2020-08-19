@@ -26,9 +26,8 @@ public class ApplyRo extends AbstractReportResponseObject {
 	}
 
 	@Override
-	public Object toValue() {
-		// TODO Auto-generated method stub
-		return null;
+	public void toValue(Object value) {
+
 	}
 
 	public ApplyModel getApply() {
